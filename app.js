@@ -13,6 +13,7 @@
     });
 
     equal.addEventListener('click', function(e){
+        console.log(screen.value);
         if(screen.value === ''){
             screen.value = "";
         }else{
